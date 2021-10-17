@@ -1,0 +1,36 @@
+body{
+  margin: 0;
+}
+
+.bar a,.bar2 a{
+  /*display: inline-block;*/
+  font-size: 30px;
+  background-color: #555;
+  color: white;
+  text-align: center;
+  width: 20%;
+  padding: 10px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.bar a:hover,.bar2 a:hover{
+  /*color: black;*/
+  background-color: green;
+}
+
+.bar{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+p{
+  margin-bottom: 70px;
+}
+
+.bar2{
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
